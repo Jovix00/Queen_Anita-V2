@@ -6,8 +6,8 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "davidcyril209@gmail.com";
-global.location = "Abuja, Nigeria";
+global.email = "tonnyasht@gmail.com";
+global.location = "kampala, Uganda";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
@@ -45,7 +45,7 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "2",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "1",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`QUEEN_ANITA-V2™`",
