@@ -45,7 +45,7 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "2",
-  HANDLERS: process.env.PREFIX || "1",
+  HANDLERS: process.env.PREFIX || "t",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`QUEEN_ANITA-V2™`",
