@@ -14,6 +14,7 @@ WORKDIR /root/DeeCeeXxx/
 
 
 COPY package.json .
+
 RUN npm install pm2 -g
 RUN npm install --legacy-peer-deps
 
